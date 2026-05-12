@@ -19,7 +19,8 @@ public class selectors
 	  // Launching the application
 	  driver.get("https://lkmdemoaut.accenture.com/AccenSportz/#/");
 	  // Using  link text to click on Book Tickets
-	  //driver.findElement(By.linkText("Book Tickets")).click(); // clicking on book tickets
+      // clicking on book tickets
+	  //driver.findElement(By.linkText("Book Tickets")).click(); 
 	  // Using partial link text to click on Book Tickets
       driver.findElement(By.partialLinkText("Book")).click();
 	  // Using CSS Selector to select India vs Pakistan ticket
