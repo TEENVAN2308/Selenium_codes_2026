@@ -3,6 +3,7 @@ package s02_Selectors;
 import java.time.Duration;
 
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.edge.EdgeDriver;
@@ -11,11 +12,11 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class selectors
+public class w01_SeleniumSelectors
 {
 	WebDriver driver;
   @Test
-  public void cssXpathLocators() throws InterruptedException 
+  public void SeleniumSelectors() throws InterruptedException 
   {
 	  // Launching the application
 	  driver.get("https://lkmdemoaut.accenture.com/AccenSportz/#/");
@@ -28,24 +29,10 @@ public class selectors
 	  driver.findElement(By.cssSelector("button[name='ticket'][value='India vs Pakistan']")).click();
 	  // Using ID locator to enter name
 	  driver.findElement(By.id("name")).sendKeys("Hema");
-	  // Using XPath locator copied from inspect
-	  driver.findElement(By.xpath("//*[@id=\"next1\"]")).click();
-	  Thread.sleep(2000);
 	  // Using Name locator to enter phone number
 	  driver.findElement(By.name("phonenumber")).sendKeys("9391733523");
-	   // Using manually written XPath
-	  driver.findElement(By.xpath("//button[@id='next2']")).click();
-	  Thread.sleep(2000);
-	  // Using XPath with formcontrolname attribute
-	  driver.findElement(By.xpath("//input[@formcontrolname='email']")).sendKeys("hema@gmail.com");
-	  // Clicking next button using XPath
-	  driver.findElement(By.xpath("//button[@id='next3']")).click();
-	  Thread.sleep(2000);
       // Using ID locator to open quantity dropdown
 	  driver.findElement(By.id("mat-select-value-1")).click();
-	  // Selecting quantity using XPath
-	  driver.findElement(By.xpath("//*[@id=\"mat-option-2\"]")).click();
-	  // Using Name locator to click submit button
 	  driver.findElement(By.name("submitbutton")).click();
 	  // Validating confirmation message using ID locator
 	  Assert.assertEquals(driver.findElement(By.id("message2")).getText(),"Your tickets for India vs Pakistan match will be sent to you via email.");
