@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="s02_Selectors.w02_CSSLocators">
+      <class name="s02_Selectors.w03_XPathLocators">
         <methods>
           <include name="f"/>
           <include name="beforeMethod"/>
         </methods>
-      </class> <!-- s02_Selectors.w02_CSSLocators -->
+      </class> <!-- s02_Selectors.w03_XPathLocators -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

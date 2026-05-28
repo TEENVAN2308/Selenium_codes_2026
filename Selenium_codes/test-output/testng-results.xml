@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-21T11:34:37 IST" name="Default suite" finished-at="2026-05-21T11:34:43 IST" duration-ms="6082">
+  <suite started-at="2026-05-28T21:00:05 IST" name="Default suite" finished-at="2026-05-28T21:00:09 IST" duration-ms="4309">
     <groups>
     </groups>
-    <test started-at="2026-05-21T11:34:37 IST" name="Default test" finished-at="2026-05-21T11:34:43 IST" duration-ms="6082">
-      <class name="s02_Selectors.w02_CSSLocators">
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:s02_Selectors.w02_CSSLocators@692f203f]" started-at="2026-05-21T11:34:37 IST" name="beforeMethod" finished-at="2026-05-21T11:34:42 IST" duration-ms="5680" status="PASS">
+    <test started-at="2026-05-28T21:00:05 IST" name="Default test" finished-at="2026-05-28T21:00:09 IST" duration-ms="4309">
+      <class name="s02_Selectors.w03_XPathLocators">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:s02_Selectors.w03_XPathLocators@692f203f]" started-at="2026-05-28T21:00:05 IST" name="beforeMethod" finished-at="2026-05-28T21:00:09 IST" duration-ms="3916" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="f()[pri:0, instance:s02_Selectors.w02_CSSLocators@692f203f]" started-at="2026-05-21T11:34:42 IST" name="f" finished-at="2026-05-21T11:34:43 IST" duration-ms="334" status="PASS">
+        <test-method signature="f()[pri:0, instance:s02_Selectors.w03_XPathLocators@692f203f]" started-at="2026-05-28T21:00:09 IST" name="f" finished-at="2026-05-28T21:00:09 IST" duration-ms="328" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- f -->
-      </class> <!-- s02_Selectors.w02_CSSLocators -->
+      </class> <!-- s02_Selectors.w03_XPathLocators -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
