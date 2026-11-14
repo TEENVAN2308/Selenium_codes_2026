@@ -16,7 +16,7 @@ public class w01_Initializing_webDriver {
 	  WebDriver  driver = new EdgeDriver();
 	  
 	  //opening the url 
-	  driver.get("https://demo.opencart.com/"); 
+	  driver.get("https://sauce-demo.myshopify.com/"); 
 	  String actual_title = driver.getTitle();
 	  System.out.println("the title is : "+actual_title);
 	  // Maximizing browser window
