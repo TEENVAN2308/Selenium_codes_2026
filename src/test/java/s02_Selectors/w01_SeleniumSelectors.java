@@ -36,6 +36,7 @@ public class w01_SeleniumSelectors
 	 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	 File srcFile = link.getScreenshotAs(OutputType.FILE);
 //	 System.out.println("Absolute path : "+srcFile.getAbsolutePath());
+	 //using classname(that we used in real css) + tagName
 	 List<WebElement> navigation_links = driver.findElements(By.cssSelector(".accordion a"));
 	 for(WebElement listss : navigation_links)
 	 {
